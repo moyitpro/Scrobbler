@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C5F6384145B04E10004D651 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C5F6383145B04E10004D651 /* Cocoa.framework */; };
+		5C5F638E145B04E10004D651 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C5F638C145B04E10004D651 /* InfoPlist.strings */; };
+		5C5F6390145B04E10004D651 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5F638F145B04E10004D651 /* main.m */; };
+		5C5F6394145B04E10004D651 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5C5F6392145B04E10004D651 /* Credits.rtf */; };
+		5C5F6397145B04E10004D651 /* ScrobblerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5F6396145B04E10004D651 /* ScrobblerAppDelegate.m */; };
+		5C5F639A145B04E10004D651 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C5F6398145B04E10004D651 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C5F637F145B04E00004D651 /* Scrobbler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrobbler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C5F6383145B04E10004D651 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5C5F6386145B04E10004D651 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5C5F6387145B04E10004D651 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5C5F6388145B04E10004D651 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5C5F638B145B04E10004D651 /* Scrobbler-Info.plist */ = {isa = PBXFileReference; path = "Scrobbler-Info.plist"; sourceTree = "<group>"; };
+		5C5F638D145B04E10004D651 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5C5F638F145B04E10004D651 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C5F6391145B04E10004D651 /* Scrobbler-Prefix.pch */ = {isa = PBXFileReference; path = "Scrobbler-Prefix.pch"; sourceTree = "<group>"; };
+		5C5F6393145B04E10004D651 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5C5F6395145B04E10004D651 /* ScrobblerAppDelegate.h */ = {isa = PBXFileReference; path = ScrobblerAppDelegate.h; sourceTree = "<group>"; };
+		5C5F6396145B04E10004D651 /* ScrobblerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrobblerAppDelegate.m; sourceTree = "<group>"; };
+		5C5F6399145B04E10004D651 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C5F637C145B04E00004D651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C5F6384145B04E10004D651 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C5F6374145B04E00004D651 = {
+			isa = PBXGroup;
+			children = (
+				5C5F6389145B04E10004D651 /* Scrobbler */,
+				5C5F6382145B04E10004D651 /* Frameworks */,
+				5C5F6380145B04E10004D651 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C5F6380145B04E10004D651 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C5F637F145B04E00004D651 /* Scrobbler.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C5F6382145B04E10004D651 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C5F6383145B04E10004D651 /* Cocoa.framework */,
+				5C5F6385145B04E10004D651 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C5F6385145B04E10004D651 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C5F6386145B04E10004D651 /* AppKit.framework */,
+				5C5F6387145B04E10004D651 /* CoreData.framework */,
+				5C5F6388145B04E10004D651 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5C5F6389145B04E10004D651 /* Scrobbler */ = {
+			isa = PBXGroup;
+			children = (
+				5C5F6395145B04E10004D651 /* ScrobblerAppDelegate.h */,
+				5C5F6396145B04E10004D651 /* ScrobblerAppDelegate.m */,
+				5C5F6398145B04E10004D651 /* MainMenu.xib */,
+				5C5F638A145B04E10004D651 /* Supporting Files */,
+			);
+			path = Scrobbler;
+			sourceTree = "<group>";
+		};
+		5C5F638A145B04E10004D651 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C5F638B145B04E10004D651 /* Scrobbler-Info.plist */,
+				5C5F638C145B04E10004D651 /* InfoPlist.strings */,
+				5C5F638F145B04E10004D651 /* main.m */,
+				5C5F6391145B04E10004D651 /* Scrobbler-Prefix.pch */,
+				5C5F6392145B04E10004D651 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C5F637E145B04E00004D651 /* Scrobbler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C5F639D145B04E10004D651 /* Build configuration list for PBXNativeTarget "Scrobbler" */;
+			buildPhases = (
+				5C5F637B145B04E00004D651 /* Sources */,
+				5C5F637C145B04E00004D651 /* Frameworks */,
+				5C5F637D145B04E00004D651 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Scrobbler;
+			productName = Scrobbler;
+			productReference = 5C5F637F145B04E00004D651 /* Scrobbler.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C5F6376145B04E00004D651 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 5C5F6379145B04E00004D651 /* Build configuration list for PBXProject "Scrobbler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5C5F6374145B04E00004D651;
+			productRefGroup = 5C5F6380145B04E10004D651 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C5F637E145B04E00004D651 /* Scrobbler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C5F637D145B04E00004D651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C5F638E145B04E10004D651 /* InfoPlist.strings in Resources */,
+				5C5F6394145B04E10004D651 /* Credits.rtf in Resources */,
+				5C5F639A145B04E10004D651 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C5F637B145B04E00004D651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C5F6390145B04E10004D651 /* main.m in Sources */,
+				5C5F6397145B04E10004D651 /* ScrobblerAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5C5F638C145B04E10004D651 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C5F638D145B04E10004D651 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5C5F6392145B04E10004D651 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C5F6393145B04E10004D651 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		5C5F6398145B04E10004D651 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C5F6399145B04E10004D651 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C5F639B145B04E10004D651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5C5F639C145B04E10004D651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5C5F639E145B04E10004D651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Scrobbler/Scrobbler-Prefix.pch";
+				INFOPLIST_FILE = "Scrobbler/Scrobbler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5C5F639F145B04E10004D651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Scrobbler/Scrobbler-Prefix.pch";
+				INFOPLIST_FILE = "Scrobbler/Scrobbler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C5F6379145B04E00004D651 /* Build configuration list for PBXProject "Scrobbler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C5F639B145B04E10004D651 /* Debug */,
+				5C5F639C145B04E10004D651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C5F639D145B04E10004D651 /* Build configuration list for PBXNativeTarget "Scrobbler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C5F639E145B04E10004D651 /* Debug */,
+				5C5F639F145B04E10004D651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C5F6376145B04E00004D651 /* Project object */;
+}
