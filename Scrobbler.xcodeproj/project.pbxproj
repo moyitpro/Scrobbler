@@ -7,28 +7,88 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C297DC2146374E60050C8DE /* SYUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C297DBD146374E60050C8DE /* SYUIController.m */; };
+		5C297DC3146374E60050C8DE /* SYLCDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C297DBF146374E60050C8DE /* SYLCDView.m */; };
+		5C297DC4146374E60050C8DE /* SYWhiteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C297DC1146374E60050C8DE /* SYWhiteView.m */; };
+		5C297DCA146374F70050C8DE /* EMKeychainItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C297DC7146374F70050C8DE /* EMKeychainItem.m */; };
+		5C297DCB146374F70050C8DE /* EMKeychainProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C297DC9146374F70050C8DE /* EMKeychainProxy.m */; };
+		5C297DD3146375410050C8DE /* MPFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C297DCD146375410050C8DE /* MPFunctions.m */; };
+		5C297DD4146375410050C8DE /* NSCollections+MPTidbits.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C297DD0146375410050C8DE /* NSCollections+MPTidbits.m */; };
+		5C297DD5146375410050C8DE /* NSString+MPTidbits.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C297DD2146375410050C8DE /* NSString+MPTidbits.m */; };
+		5C297DDC146375850050C8DE /* lcd-ban.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C297DD6146375850050C8DE /* lcd-ban.png */; };
+		5C297DDD146375850050C8DE /* lcd-love.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C297DD7146375850050C8DE /* lcd-love.png */; };
+		5C297DDE146375850050C8DE /* love.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C297DD8146375850050C8DE /* love.png */; };
+		5C297DDF146375850050C8DE /* ban.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C297DD9146375850050C8DE /* ban.png */; };
+		5C297DE0146375850050C8DE /* lcd.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C297DDA146375850050C8DE /* lcd.png */; };
+		5C297DE1146375850050C8DE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C297DDB146375850050C8DE /* MainMenu.xib */; };
+		5C297DE3146376970050C8DE /* Scribbler.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5C5F63A6145B05A40004D651 /* Scribbler.framework */; };
+		5C297DF01463982D0050C8DE /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C297DEF1463982D0050C8DE /* stop.png */; };
+		5C297DF2146398410050C8DE /* star.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5C297DF1146398410050C8DE /* star.tiff */; };
 		5C5F6384145B04E10004D651 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C5F6383145B04E10004D651 /* Cocoa.framework */; };
 		5C5F638E145B04E10004D651 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C5F638C145B04E10004D651 /* InfoPlist.strings */; };
 		5C5F6390145B04E10004D651 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5F638F145B04E10004D651 /* main.m */; };
 		5C5F6394145B04E10004D651 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5C5F6392145B04E10004D651 /* Credits.rtf */; };
 		5C5F6397145B04E10004D651 /* ScrobblerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5F6396145B04E10004D651 /* ScrobblerAppDelegate.m */; };
-		5C5F639A145B04E10004D651 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C5F6398145B04E10004D651 /* MainMenu.xib */; };
+		5C5F63A1145B056E0004D651 /* Scribbler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C5F63A0145B056E0004D651 /* Scribbler.framework */; };
+		5C5F63A3145B05830004D651 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C5F63A2145B05830004D651 /* Carbon.framework */; };
+		5C5F63A5145B05910004D651 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C5F63A4145B05910004D651 /* Security.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		5C297DE21463768D0050C8DE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5C297DE3146376970050C8DE /* Scribbler.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		5C297DBC146374E60050C8DE /* SYUIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYUIController.h; sourceTree = "<group>"; };
+		5C297DBD146374E60050C8DE /* SYUIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYUIController.m; sourceTree = "<group>"; };
+		5C297DBE146374E60050C8DE /* SYLCDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYLCDView.h; sourceTree = "<group>"; };
+		5C297DBF146374E60050C8DE /* SYLCDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYLCDView.m; sourceTree = "<group>"; };
+		5C297DC0146374E60050C8DE /* SYWhiteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYWhiteView.h; sourceTree = "<group>"; };
+		5C297DC1146374E60050C8DE /* SYWhiteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYWhiteView.m; sourceTree = "<group>"; };
+		5C297DC6146374F70050C8DE /* EMKeychainItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMKeychainItem.h; sourceTree = "<group>"; };
+		5C297DC7146374F70050C8DE /* EMKeychainItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMKeychainItem.m; sourceTree = "<group>"; };
+		5C297DC8146374F70050C8DE /* EMKeychainProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMKeychainProxy.h; sourceTree = "<group>"; };
+		5C297DC9146374F70050C8DE /* EMKeychainProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMKeychainProxy.m; sourceTree = "<group>"; };
+		5C297DCC146375410050C8DE /* MPFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPFunctions.h; sourceTree = "<group>"; };
+		5C297DCD146375410050C8DE /* MPFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPFunctions.m; sourceTree = "<group>"; };
+		5C297DCE146375410050C8DE /* MPTidbits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPTidbits.h; sourceTree = "<group>"; };
+		5C297DCF146375410050C8DE /* NSCollections+MPTidbits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCollections+MPTidbits.h"; sourceTree = "<group>"; };
+		5C297DD0146375410050C8DE /* NSCollections+MPTidbits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCollections+MPTidbits.m"; sourceTree = "<group>"; };
+		5C297DD1146375410050C8DE /* NSString+MPTidbits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MPTidbits.h"; sourceTree = "<group>"; };
+		5C297DD2146375410050C8DE /* NSString+MPTidbits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MPTidbits.m"; sourceTree = "<group>"; };
+		5C297DD6146375850050C8DE /* lcd-ban.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lcd-ban.png"; sourceTree = "<group>"; };
+		5C297DD7146375850050C8DE /* lcd-love.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lcd-love.png"; sourceTree = "<group>"; };
+		5C297DD8146375850050C8DE /* love.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = love.png; sourceTree = "<group>"; };
+		5C297DD9146375850050C8DE /* ban.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ban.png; sourceTree = "<group>"; };
+		5C297DDA146375850050C8DE /* lcd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lcd.png; sourceTree = "<group>"; };
+		5C297DDB146375850050C8DE /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		5C297DEF1463982D0050C8DE /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		5C297DF1146398410050C8DE /* star.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = star.tiff; sourceTree = "<group>"; };
 		5C5F637F145B04E00004D651 /* Scrobbler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrobbler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C5F6383145B04E10004D651 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5C5F6386145B04E10004D651 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		5C5F6387145B04E10004D651 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		5C5F6388145B04E10004D651 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		5C5F638B145B04E10004D651 /* Scrobbler-Info.plist */ = {isa = PBXFileReference; path = "Scrobbler-Info.plist"; sourceTree = "<group>"; };
+		5C5F638B145B04E10004D651 /* Scrobbler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Scrobbler-Info.plist"; sourceTree = "<group>"; };
 		5C5F638D145B04E10004D651 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5C5F638F145B04E10004D651 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5C5F6391145B04E10004D651 /* Scrobbler-Prefix.pch */ = {isa = PBXFileReference; path = "Scrobbler-Prefix.pch"; sourceTree = "<group>"; };
+		5C5F6391145B04E10004D651 /* Scrobbler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Scrobbler-Prefix.pch"; sourceTree = "<group>"; };
 		5C5F6393145B04E10004D651 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		5C5F6395145B04E10004D651 /* ScrobblerAppDelegate.h */ = {isa = PBXFileReference; path = ScrobblerAppDelegate.h; sourceTree = "<group>"; };
+		5C5F6395145B04E10004D651 /* ScrobblerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrobblerAppDelegate.h; sourceTree = "<group>"; };
 		5C5F6396145B04E10004D651 /* ScrobblerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrobblerAppDelegate.m; sourceTree = "<group>"; };
-		5C5F6399145B04E10004D651 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5C5F63A0145B056E0004D651 /* Scribbler.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Scribbler.framework; path = Frameworks/Scribbler.framework; sourceTree = "<group>"; };
+		5C5F63A2145B05830004D651 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		5C5F63A4145B05910004D651 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		5C5F63A6145B05A40004D651 /* Scribbler.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Scribbler.framework; path = Frameworks/Scribbler.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +96,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C5F63A1145B056E0004D651 /* Scribbler.framework in Frameworks */,
+				5C5F63A5145B05910004D651 /* Security.framework in Frameworks */,
+				5C5F63A3145B05830004D651 /* Carbon.framework in Frameworks */,
 				5C5F6384145B04E10004D651 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,6 +126,10 @@
 		5C5F6382145B04E10004D651 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5C5F63A6145B05A40004D651 /* Scribbler.framework */,
+				5C5F63A4145B05910004D651 /* Security.framework */,
+				5C5F63A2145B05830004D651 /* Carbon.framework */,
+				5C5F63A0145B056E0004D651 /* Scribbler.framework */,
 				5C5F6383145B04E10004D651 /* Cocoa.framework */,
 				5C5F6385145B04E10004D651 /* Other Frameworks */,
 			);
@@ -82,9 +149,25 @@
 		5C5F6389145B04E10004D651 /* Scrobbler */ = {
 			isa = PBXGroup;
 			children = (
+				5C297DCC146375410050C8DE /* MPFunctions.h */,
+				5C297DCD146375410050C8DE /* MPFunctions.m */,
+				5C297DCE146375410050C8DE /* MPTidbits.h */,
+				5C297DCF146375410050C8DE /* NSCollections+MPTidbits.h */,
+				5C297DD0146375410050C8DE /* NSCollections+MPTidbits.m */,
+				5C297DD1146375410050C8DE /* NSString+MPTidbits.h */,
+				5C297DD2146375410050C8DE /* NSString+MPTidbits.m */,
+				5C297DC6146374F70050C8DE /* EMKeychainItem.h */,
+				5C297DC7146374F70050C8DE /* EMKeychainItem.m */,
+				5C297DC8146374F70050C8DE /* EMKeychainProxy.h */,
+				5C297DC9146374F70050C8DE /* EMKeychainProxy.m */,
+				5C297DBC146374E60050C8DE /* SYUIController.h */,
+				5C297DBD146374E60050C8DE /* SYUIController.m */,
+				5C297DBE146374E60050C8DE /* SYLCDView.h */,
+				5C297DBF146374E60050C8DE /* SYLCDView.m */,
+				5C297DC0146374E60050C8DE /* SYWhiteView.h */,
+				5C297DC1146374E60050C8DE /* SYWhiteView.m */,
 				5C5F6395145B04E10004D651 /* ScrobblerAppDelegate.h */,
 				5C5F6396145B04E10004D651 /* ScrobblerAppDelegate.m */,
-				5C5F6398145B04E10004D651 /* MainMenu.xib */,
 				5C5F638A145B04E10004D651 /* Supporting Files */,
 			);
 			path = Scrobbler;
@@ -93,8 +176,16 @@
 		5C5F638A145B04E10004D651 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5C297DD6146375850050C8DE /* lcd-ban.png */,
+				5C297DD7146375850050C8DE /* lcd-love.png */,
+				5C297DD8146375850050C8DE /* love.png */,
+				5C297DD9146375850050C8DE /* ban.png */,
+				5C297DF1146398410050C8DE /* star.tiff */,
+				5C297DDA146375850050C8DE /* lcd.png */,
+				5C297DDB146375850050C8DE /* MainMenu.xib */,
 				5C5F638B145B04E10004D651 /* Scrobbler-Info.plist */,
 				5C5F638C145B04E10004D651 /* InfoPlist.strings */,
+				5C297DEF1463982D0050C8DE /* stop.png */,
 				5C5F638F145B04E10004D651 /* main.m */,
 				5C5F6391145B04E10004D651 /* Scrobbler-Prefix.pch */,
 				5C5F6392145B04E10004D651 /* Credits.rtf */,
@@ -112,6 +203,7 @@
 				5C5F637B145B04E00004D651 /* Sources */,
 				5C5F637C145B04E00004D651 /* Frameworks */,
 				5C5F637D145B04E00004D651 /* Resources */,
+				5C297DE21463768D0050C8DE /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -151,7 +243,14 @@
 			files = (
 				5C5F638E145B04E10004D651 /* InfoPlist.strings in Resources */,
 				5C5F6394145B04E10004D651 /* Credits.rtf in Resources */,
-				5C5F639A145B04E10004D651 /* MainMenu.xib in Resources */,
+				5C297DDC146375850050C8DE /* lcd-ban.png in Resources */,
+				5C297DDD146375850050C8DE /* lcd-love.png in Resources */,
+				5C297DDE146375850050C8DE /* love.png in Resources */,
+				5C297DDF146375850050C8DE /* ban.png in Resources */,
+				5C297DE0146375850050C8DE /* lcd.png in Resources */,
+				5C297DE1146375850050C8DE /* MainMenu.xib in Resources */,
+				5C297DF01463982D0050C8DE /* stop.png in Resources */,
+				5C297DF2146398410050C8DE /* star.tiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +263,14 @@
 			files = (
 				5C5F6390145B04E10004D651 /* main.m in Sources */,
 				5C5F6397145B04E10004D651 /* ScrobblerAppDelegate.m in Sources */,
+				5C297DC2146374E60050C8DE /* SYUIController.m in Sources */,
+				5C297DC3146374E60050C8DE /* SYLCDView.m in Sources */,
+				5C297DC4146374E60050C8DE /* SYWhiteView.m in Sources */,
+				5C297DCA146374F70050C8DE /* EMKeychainItem.m in Sources */,
+				5C297DCB146374F70050C8DE /* EMKeychainProxy.m in Sources */,
+				5C297DD3146375410050C8DE /* MPFunctions.m in Sources */,
+				5C297DD4146375410050C8DE /* NSCollections+MPTidbits.m in Sources */,
+				5C297DD5146375410050C8DE /* NSString+MPTidbits.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,14 +291,6 @@
 				5C5F6393145B04E10004D651 /* en */,
 			);
 			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		5C5F6398145B04E10004D651 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5C5F6399145B04E10004D651 /* en */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -245,6 +344,10 @@
 		5C5F639E145B04E10004D651 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Scrobbler/Scrobbler-Prefix.pch";
 				INFOPLIST_FILE = "Scrobbler/Scrobbler-Info.plist";
@@ -256,6 +359,10 @@
 		5C5F639F145B04E10004D651 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Scrobbler/Scrobbler-Prefix.pch";
 				INFOPLIST_FILE = "Scrobbler/Scrobbler-Info.plist";
@@ -283,6 +390,7 @@
 				5C5F639F145B04E10004D651 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
